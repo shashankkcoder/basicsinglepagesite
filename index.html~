@@ -1,0 +1,52 @@
+<!doctype html >
+<html>
+<head>
+	<title>
+		Doctor's Site
+	</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+
+	<body style="background-color:black;">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#" >Home</a></li>
+      <li><a href="#About" class="smoothScroll">ABOUT US</a></li>
+      <li><a href="#CONTACT">CONTACT US</a></li>
+      <li><a href="#MAP">MAP</a></li>
+      <li><a href="GALLERY">GALLERY</a></li>
+    </ul>
+  </div>
+</nav>
+<img src = "1.jpg" width ="100%"style="height:750px; margin-bottom: 20px;">
+  <section id="About" >
+    <p >
+    	<img src="1.jpg" class="img-rounded" style="height:300px; margin-right,bottom:20px;float:left; ">
+<h3 style ="padding:30px;">Lionel Messi was born Luis Lionel Andres Messi on June 24, 1987, in Rosario, Argentina. As a young boy, he tagged along when his two older brothers played soccer with their friends, unintimidated by the bigger boys. At the age of 8, he was recruited to join the youth system of Newell's Old Boys, a Rosario-based club. Recognizably smaller than most of the kids in his age group, Messi was eventually diagnosed by doctors as suffering from a hormone deficiency that restricted his growth.
+
+</h3>
+</p>
+</section>
+ <section id="CONTACT" img src="1.jpg">
+  	<h2>EMAIL ID</h2>
+  	<p>shashankaggarwal121@gmail.com</p>
+  	<h2>PHONE NO.</h2>
+  	<p>9034569405</p>
+  </section>
+ 
+ <script type="text/javascript" src="smoothscroll.js"></sc
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ ript>
+
+</body>
+</html>
