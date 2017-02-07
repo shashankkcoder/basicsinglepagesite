@@ -4,94 +4,96 @@
     <title>
         Welcome
     </title>
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <style type="text/css">
+        .jumbotron {
+            background: white;
+        }
+
+        .jumbotron p {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
+<div class="container-fluid">
+    <nav class="navbar">
+    
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Doctor</a>
+            <a class="navbar-brand vcenter" href="#">
+                <img id="logo" class="pull-left" src="img/logo.png" height="50px" width="50px" />
+                Dr. Devinder Kumar
+                <!-- <div class="pull-left"></div> -->
+            </a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#About" class="smoothScroll">ABOUT US</a></li>
-            <li><a href="#MAP" class="smoothScroll">MAP</a></li>
-            <li><a href="#GALLERY" class="smoothScroll">GALLERY</a></li>
-            <li><a href="#CONTACT" class="smoothScroll">CONTACT US</a></li>
+            <li class="active"><a href="#home">HOME</a><div class="underline"></div></li>
+            <li><a href="#about">ABOUT</a><div class="underline"></li>
+            <li><a href="#team">TEAM</a><div class="underline"></li>
+            <li><a href="#gallery" class="smoothScroll">GALLERY</a><div class="underline"></li>
+            <li><a href="#services" class="smoothScroll">SERVICES</a><div class="underline"></li>
+            <li><a href="#contact" class="smoothScroll">CONTACT</a><div class="underline"></li>
         </ul>
-    </div>
+    
+
 </nav>
-<img src="img/1.jpg" width="100%" style="height:750px; margin-bottom: 20px;">
-<div id="about">
-    <section id="About">
-        <p>
-            <img src="img/1.jpg" class="img-rounded" style="height:300px; margin-right,bottom:20px;float:left; ">
-        <h3 style="padding:30px;">Lionel Messi was born Luis Lionel Andres Messi on June 24, 1987, in Rosario,
-            Argentina. As a young boy, he tagged along when his two older brothers played soccer with their friends,
-            unintimidated by the bigger boys. At the age of 8, he was recruited to join the youth system of Newell's Old
-            Boys, a Rosario-based club. Recognizably smaller than most of the kids in his age group, Messi was
-            eventually diagnosed by doctors as suffering from a hormone deficiency that restricted his growth.
-        </h3>
-        </p>
-    </section>
-    <section style="float:left;margin-top:20px;">
-        <p>
-            <img src="img/1.jpg" class="img-rounded" style="height:300px; margin-right,bottom:20px;float:right; ">
-        <h3 style="padding:30px;">Born and raised in central Argentina, Messi was diagnosed with a growth hormone
-            deficiency as a child. At age 13, he relocated to Spain to join Barcelona, who agreed to pay for his medical
-            treatment. After a fast progression through Barcelona's youth academy, Messi made his competitive debut aged
-            17 in October 2004. Despite being injury-prone during his early career, he established himself as an
-            integral player for the club within the next three years, finishing 2007 as a finalist for both the Ballon
-            d'Or and FIFA World Player of the Year award, a feat he repeated the following year. His first uninterrupted
-            campaign came in the 2008–09 season, during which he helped Barcelona achieve the first treble in Spanish
-            football. At 22 years old, Messi won the Ballon d'Or and FIFA World Player of the Year award by record
-            voting margins
-        </h3>
-        </p>
-    </section>
 </div>
-<br>
-<br><br>
-<div id="MAP">
-    <img src="map.jpg" width="100%" style="margin-top:20px;height:500px;">
+<div id="about" class="container">
+    <div class="jumbotron col-md-8">
+        <h2>A Few Worlds About Us</h2>
+        <div class="constantUnderline"></div>
+        <p>We are a family focused dental practice, founded in 1996 with a strong emphasis on preventive care and general dentistry to help you and your family achieve and keep a healthy smile for life. During your consultation, we like to take the time to discuss with you all the options available to solve your dental problems so we can provide the treatment that is the most suitable for you. We are committed to attending continuous education courses and seminars covering all areas of dentistry in order to ensure that all patients receive the best and most current treatments available.
+
+        Our experienced staff members are dedicated to providing friendly, comfortable and professional dental care using all the latest technology to ensure your smile is always at its best.</p>
+    </div>
+    <div class="col-md-4 test">
+
+    </div>
 </div>
-<div id="GALLERY" style="margin-top:20px;">
-    <img class="mySlides" src="1.jpg" style="width:100%;height:400px;">
-    <img class="mySlides" src="map.jpg" style="width:100%;height:400px;">
-    <img class="mySlides" src="1.jpg" style="width:100%;height:400px;">
+<div id="team">
+    <div class="container">
+        <div class=" col-md-3 team-member">
+            <img src="img/thumbnail1.jpeg">
+            <div class="lower">
+                <h3>Deepesh<br />Aggarwal</h3>
+                <div class="full-profile"> Full Profile</div>
+            </div>
+        </div>
+        <div class=" col-md-1 team-member"></div>
+        <div class=" col-md-3 team-member test">
+            
+        </div>
+        <div class=" col-md-1 team-member"></div>
+        <div class=" col-md-3 team-member test">
+            
+        </div>
+
+        <!-- <div class=" col-md-3 team-member test"></div>
+        <div class=" col-md-1 team-member"></div>
+        <div class=" col-md-3 team-member test"></div>
+        <div class=" col-md-1 team-member"></div>
+        <div class=" col-md-3 team-member test"></div> -->
+
+    </div>
+
 </div>
-<div id="CONTACT" style="height:400px;width:100%;background-color:black;color:white;">
-    <img src="img/2.jpg" class="img-rounded" style="width:400px;height:400px;float:right;">
-    <h3><b>Email_ID</b>
-        <br>shashankaggarwal121@gmail.com
-        <br><br><b>Phone no.</b>
-        <br>+91-9034569405</h3>
-</div>
-<script>
-    var myIndex = 0;
-    carousel();
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {
-            myIndex = 1
-        }
-        x[myIndex - 1].style.display = "block";
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
+
+</body>
+
+<script type="text/javascript">
+    
+    $('.nav li').click(function(event) {
+        event.preventDefault(); 
+        var top = $($(this).children('a').attr('href')).position().top;
+        $('body').animate({
+          scrollTop: top
+        }, 1000);
+    })
+
 </script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="smoothscroll.js"></script>
-</body>
 </html>
